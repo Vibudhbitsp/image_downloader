@@ -1,0 +1,36 @@
+name: image_downloader_app
+description: A Flutter app for downloading images with Dio and clean architecture.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  dio: ^5.2.1
+  permission_handler: ^11.1.0
+  path_provider: ^2.0.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment the following lines to add assets to your application.
+  # assets:
+  #   - assets/my_icon.png
+  #   - assets/background.png
+
+  # Uncomment the following lines to add fonts to your application.
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
